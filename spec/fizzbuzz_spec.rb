@@ -9,7 +9,7 @@ context 'user input returns "fizz"' do
 
   describe 'fizzbuzz' do
     it 'does not return "fizz" when passed 5' do
-      expect(fizzbuzz(5)).to eq 'fizz'
+      expect(fizzbuzz(5)).to not_eq 'fizz'
     end
   end
 end
